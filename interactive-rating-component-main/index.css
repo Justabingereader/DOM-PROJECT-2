@@ -1,0 +1,365 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+    padding: 0;
+}
+
+.ratingState {
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 330px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-top: 35px;
+    padding-left: 25px;
+    display: block;
+}
+
+#iconStar {
+    background-color: hsl(216, 12%, 54%);
+    padding: 10px;
+    border-radius: 20px;
+}
+#contentHeader {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: Overpass;
+}
+#contentBody {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-family: Overpass;
+    margin-bottom: 30px;
+}
+#one {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+#one:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+#one:active {
+    background-color: hsl(216, 12%, 8%);
+}
+#two {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+#two:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+#two:active {
+    background-color: hsl(216, 12%, 8%);
+}
+#three {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+#three:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+#three:active {
+    background-color: hsl(216, 12%, 8%);
+}
+#four {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+#four:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+#four:active {
+    background-color: hsl(216, 12%, 8%);
+}
+#five {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+#five:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+#five:active {
+    background-color: hsl(216, 12%, 8%);
+}
+#submit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    width: 290px;
+    height: 40px;
+    border: 0;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    border-radius: 20px;
+}
+#submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#submit:active {
+    background-color: hsl(216, 12%, 8%);
+}
+.thankState {
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 330px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-top: 35px;
+    padding-left: 25px;
+    text-align: center;
+    display: none;
+}
+#select {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(25, 97%, 53%);
+    width: 180px;
+    margin-left: 70px;
+    height: 20px;
+    border-radius: 10px;
+}
+#thankHeader {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: Overpass;
+}
+#thankBody {
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-family: Overpass;
+    margin-bottom: 30px;
+}
+.attribution {
+    color: white;
+}
+
+@media (max-width: 600px){
+    body {
+        background-color: hsl(216, 12%, 8%);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ratingState {
+        background-color: hsl(213, 19%, 18%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 330px;
+        height: 330px;
+        border-radius: 25px;
+        padding: 10px;
+        padding-top: 35px;
+        padding-left: 25px;
+        display: block;
+    }
+    
+    #iconStar {
+        background-color: hsl(216, 12%, 54%);
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #contentHeader {
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-family: Overpass;
+    }
+    #contentBody {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-family: Overpass;
+        margin-bottom: 30px;
+    }
+    #one {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    #one:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    #one:active {
+        background-color: hsl(216, 12%, 8%);
+    }
+    #two {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin-left: 15px;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    #two:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    #two:active {
+        background-color: hsl(216, 12%, 8%);
+    }
+    #three {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin-left: 15px;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    #three:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    #three:active {
+        background-color: hsl(216, 12%, 8%);
+    }
+    #four {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin-left: 15px;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    #four:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    #four:active {
+        background-color: hsl(216, 12%, 8%);
+    }
+    #five {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin-left: 15px;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    #five:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    #five:active {
+        background-color: hsl(216, 12%, 8%);
+    }
+    #submit {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        width: 290px;
+        height: 40px;
+        border: 0;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+        border-radius: 20px;
+    }
+    #submit:hover {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(25, 97%, 53%);
+        cursor: pointer;
+    }
+    #submit:active {
+        background-color: hsl(216, 12%, 8%);
+    }
+    .thankState {
+        background-color: hsl(213, 19%, 18%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 330px;
+        height: 330px;
+        border-radius: 25px;
+        padding: 10px;
+        padding-top: 35px;
+        padding-left: 25px;
+        text-align: center;
+        display: none;
+    }
+    #select {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(25, 97%, 53%);
+        width: 180px;
+        margin-left: 70px;
+        height: 20px;
+        border-radius: 10px;
+    }
+    #thankHeader {
+        color: hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-family: Overpass;
+    }
+    #thankBody {
+        color: hsl(217, 12%, 63%);
+        font-weight: 400;
+        font-family: Overpass;
+        margin-bottom: 30px;
+    }
+    .attribution {
+        color: white;
+    }
+}
