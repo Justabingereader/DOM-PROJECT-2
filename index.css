@@ -35,7 +35,7 @@ body {
     font-family: Overpass;
     margin-bottom: 30px;
 }
-#one {
+/* .one {
     background-color: hsl(216, 12%, 54%);
     color: hsl(217, 12%, 63%);
     width: 40px;
@@ -44,33 +44,15 @@ body {
     border: 0;
     box-shadow: 0 5px 2px rgba(0,0,0,0.15);
 }
-#one:hover {
+.one:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
-#one:active {
+.one:active {
     background-color: hsl(216, 12%, 8%);
 }
-#two {
-    background-color: hsl(216, 12%, 54%);
-    color: hsl(217, 12%, 63%);
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    border: 0;
-    margin-left: 15px;
-    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
-}
-#two:hover {
-    background-color: hsl(25, 97%, 53%);
-    color: hsl(0, 0%, 100%);
-    cursor: pointer;
-}
-#two:active {
-    background-color: hsl(216, 12%, 8%);
-}
-#three {
+.two {
     background-color: hsl(216, 12%, 54%);
     color: hsl(217, 12%, 63%);
     width: 40px;
@@ -80,15 +62,15 @@ body {
     margin-left: 15px;
     box-shadow: 0 5px 2px rgba(0,0,0,0.15);
 }
-#three:hover {
+.two:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
-#three:active {
+.two:active {
     background-color: hsl(216, 12%, 8%);
 }
-#four {
+.three {
     background-color: hsl(216, 12%, 54%);
     color: hsl(217, 12%, 63%);
     width: 40px;
@@ -98,15 +80,15 @@ body {
     margin-left: 15px;
     box-shadow: 0 5px 2px rgba(0,0,0,0.15);
 }
-#four:hover {
+.three:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
-#four:active {
+.three:active {
     background-color: hsl(216, 12%, 8%);
 }
-#five {
+.four {
     background-color: hsl(216, 12%, 54%);
     color: hsl(217, 12%, 63%);
     width: 40px;
@@ -116,14 +98,32 @@ body {
     margin-left: 15px;
     box-shadow: 0 5px 2px rgba(0,0,0,0.15);
 }
-#five:hover {
+.four:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
-#five:active {
+.four:active {
     background-color: hsl(216, 12%, 8%);
 }
+.five {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+.five:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.five:active {
+    background-color: hsl(216, 12%, 8%);
+} */
 #submit {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
@@ -179,6 +179,28 @@ body {
 .attribution {
     color: white;
 }
+.button {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-left: 15px;
+    box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+}
+.button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.button:active{
+    background-color: hsl(216, 12%, 8%);
+}
+.highlight {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
 
 @media (max-width: 600px){
     body {
@@ -218,7 +240,7 @@ body {
         font-family: Overpass;
         margin-bottom: 30px;
     }
-    #one {
+    /* .one {
         background-color: hsl(216, 12%, 54%);
         color: hsl(217, 12%, 63%);
         width: 40px;
@@ -227,33 +249,15 @@ body {
         border: 0;
         box-shadow: 0 5px 2px rgba(0,0,0,0.15);
     }
-    #one:hover {
+    .one:hover {
         background-color: hsl(25, 97%, 53%);
         color: hsl(0, 0%, 100%);
         cursor: pointer;
     }
-    #one:active {
+    .one:active {
         background-color: hsl(216, 12%, 8%);
     }
-    #two {
-        background-color: hsl(216, 12%, 54%);
-        color: hsl(217, 12%, 63%);
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
-        border: 0;
-        margin-left: 15px;
-        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
-    }
-    #two:hover {
-        background-color: hsl(25, 97%, 53%);
-        color: hsl(0, 0%, 100%);
-        cursor: pointer;
-    }
-    #two:active {
-        background-color: hsl(216, 12%, 8%);
-    }
-    #three {
+    .two {
         background-color: hsl(216, 12%, 54%);
         color: hsl(217, 12%, 63%);
         width: 40px;
@@ -263,15 +267,15 @@ body {
         margin-left: 15px;
         box-shadow: 0 5px 2px rgba(0,0,0,0.15);
     }
-    #three:hover {
+    .two:hover {
         background-color: hsl(25, 97%, 53%);
         color: hsl(0, 0%, 100%);
         cursor: pointer;
     }
-    #three:active {
+    .two:active {
         background-color: hsl(216, 12%, 8%);
     }
-    #four {
+    .three {
         background-color: hsl(216, 12%, 54%);
         color: hsl(217, 12%, 63%);
         width: 40px;
@@ -281,15 +285,15 @@ body {
         margin-left: 15px;
         box-shadow: 0 5px 2px rgba(0,0,0,0.15);
     }
-    #four:hover {
+    .three:hover {
         background-color: hsl(25, 97%, 53%);
         color: hsl(0, 0%, 100%);
         cursor: pointer;
     }
-    #four:active {
+    .three:active {
         background-color: hsl(216, 12%, 8%);
     }
-    #five {
+    .four {
         background-color: hsl(216, 12%, 54%);
         color: hsl(217, 12%, 63%);
         width: 40px;
@@ -299,14 +303,32 @@ body {
         margin-left: 15px;
         box-shadow: 0 5px 2px rgba(0,0,0,0.15);
     }
-    #five:hover {
+    .four:hover {
         background-color: hsl(25, 97%, 53%);
         color: hsl(0, 0%, 100%);
         cursor: pointer;
     }
-    #five:active {
+    .four:active {
         background-color: hsl(216, 12%, 8%);
     }
+    .five {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin-left: 15px;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    .five:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    .five:active {
+        background-color: hsl(216, 12%, 8%);
+    } */
     #submit {
         background-color: hsl(25, 97%, 53%);
         color: hsl(0, 0%, 100%);
@@ -361,5 +383,27 @@ body {
     }
     .attribution {
         color: white;
+    }
+    .button {
+        background-color: hsl(216, 12%, 54%);
+        color: hsl(217, 12%, 63%);
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+        margin-left: 15px;
+        box-shadow: 0 5px 2px rgba(0,0,0,0.15);
+    }
+    .button:hover {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    .button:active{
+        background-color: hsl(216, 12%, 8%);
+    }
+    .highlight {
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
     }
 }
